@@ -3,11 +3,9 @@
   "private": false,
   "version": "0.1.0",
   "type": "module",
-  "main": "dist/my-element.es.js",
-  "exports": {
-    ".": "./dist/my-element.es.js"
-  },
-  "types": "types/my-element.d.ts",
+  "main": "dist/my-element.js",
+  "module": "dist/my-element.js",
+  "typings": "dist/my-element.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
